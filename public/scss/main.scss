@@ -1,1 +1,32 @@
 @import './global.scss';
+
+body {
+	padding: 1em;
+	background-color: var(--bg-2);
+}
+
+main-app {
+	margin-top: 1em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+
+	.line {
+		display: flex;
+		gap: 1em;
+
+		.card {
+			padding: 1em;
+			background-color: var(--bg-3);
+			border-radius: 0.5em;
+			flex: 1;
+			text-align: center;
+			user-select: none;
+			border: 1px solid var(--bg-1);
+
+			&:hover {
+				filter: brightness(1.3);
+			}
+		}
+	}
+}
