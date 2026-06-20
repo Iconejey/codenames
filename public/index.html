@@ -4,8 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content" />
 		<meta name="color-scheme" content="dark" />
-		<meta name="theme-color" content="#131313" />
-		<link rel="icon" href="https://icons.ngwy.fr/badge/label/none/ffffff/192/192" />
+		<meta name="theme-color" content="#191919" />
+		<link rel="icon" href="https://icons.nosuite.fr/badge/label/none/ffffff/192/192" />
 		<link rel="manifest" href="manifest.json" />
 
 		<!-- Title -->
@@ -19,8 +19,8 @@
 		<meta name="twitter:description" content="Codenames experience with AI." />
 
 		<!-- Image -->
-		<meta name="og:image" content="https://icons.ngwy.fr/maskable/label/f9f9f9/000000/1200/600" />
-		<meta name="twitter:image" content="https://icons.ngwy.fr/maskable/label/f9f9f9/000000/1200/600" />
+		<meta name="og:image" content="https://icons.nosuite.fr/maskable/label/f9f9f9/000000/1200/600" />
+		<meta name="twitter:image" content="https://icons.nosuite.fr/maskable/label/f9f9f9/000000/1200/600" />
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
@@ -28,13 +28,15 @@
 
 		<!-- Scripts -->
 		<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
-		<script src="https://nosuite.ngwy.fr/scripts/utils.js" defer></script>
+		<script src="https://account.nosuite.fr/scripts/utils.js" defer></script>
 		<script src="./scripts/main.js" defer></script>
 	</head>
 	<body class="dark">
 		<h2>Noname</h2>
-		<button id="auth">Sign in with Nosuite account</button>
-		<button id="out" disabled>Sign out</button>
+		<div class="line">
+			<button id="auth">Sign in with Nosuite account</button>
+			<button id="out" disabled>Se déconnecter</button>
+		</div>
 
 		<main-app></main-app>
 	</body>

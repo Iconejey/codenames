@@ -36,6 +36,13 @@
 	box-sizing: border-box;
 }
 
+input,
+button {
+	&:focus {
+		outline: none;
+	}
+}
+
 body {
 	font-family: 'segoeui', sans-serif;
 }
